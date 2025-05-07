@@ -1,0 +1,186 @@
+.services-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+  }
+  
+  .services-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3b82f6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 16px;
+  }
+  
+  .section-description {
+    font-size: 1.1rem;
+    color: #64748b;
+    line-height: 1.6;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 15px;
+  }
+  
+  .service-description {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .service-features {
+    margin-bottom: 25px;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .feature-item {
+    margin-bottom: 8px;
+    color: #334155;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .feature-check {
+    color: #3b82f6;
+    margin-right: 8px;
+    font-weight: bold;
+  }
+  
+  .service-button {
+    background: none;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  .service-button:hover {
+    background: #3b82f6;
+    color: white;
+  }
+  
+  .service-cta {
+    text-align: center;
+    margin-top: 60px;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    border-radius: 10px;
+    color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .service-cta h4 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .cta-button {
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button.primary {
+    background: white;
+    color: #1e3a8a;
+  }
+  
+  .cta-button.primary:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+  }
+  
+  .cta-button.secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .cta-button.secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .service-button {
+      width: auto;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .services-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .services-section {
+      padding: 100px 20px;
+    }
+    
+    .section-title {
+      font-size: 3rem;
+    }
+  }
