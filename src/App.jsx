@@ -19,7 +19,9 @@ function App() {
         <div id='about'>
             <About/>
         </div>
-        <Featured/>
+        <div id='featured'>
+            <Featured/>
+        </div>
         <Services/>
         <Testimonials/>
         <Contact/>

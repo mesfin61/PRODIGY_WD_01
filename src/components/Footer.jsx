@@ -33,8 +33,8 @@ function Footer () {
           <div className="footer-column">
             <h4 className="footer-title">Quick Links</h4>
             <ul className="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#inventory">Inventory</a></li>
+              <li><a href="#banner">Home</a></li>
+              <li><a href="#featured">Inventory</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#about">About Us</a></li>
               <li><a href="#testimonials">Testimonials</a></li>
@@ -59,11 +59,11 @@ function Footer () {
             <ul className="footer-contact">
               <li className="contact-item">
                 <span className="contact-icon">📍</span>
-                <span>123 Auto Elite Blvd, Miami, FL 33101</span>
+                <span>123 Auto Elite Blvd, Addis Ababa, Ethiopia</span>
               </li>
               <li className="contact-item">
                 <span className="contact-icon">📞</span>
-                <span><a href="tel:+18005551234">(800) 555-1234</a></span>
+                <span><a href="tel:+251912345678">+251 912 345 678</a></span>
               </li>
               <li className="contact-item">
                 <span className="contact-icon">✉️</span>

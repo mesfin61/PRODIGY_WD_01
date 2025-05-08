@@ -135,7 +135,7 @@ const Contact = () => {
               <div className="contact-icon">📍</div>
               <div className="contact-details">
                 <h5>Visit Us</h5>
-                <p>123 Auto Elite Boulevard<br />Miami, FL 33101</p>
+                <p>123 Auto Elite Boulevard<br />Addis Ababa, Ethiopia</p>
                 <p className="directions-note">
                   <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">
                     Get Directions
@@ -149,8 +149,8 @@ const Contact = () => {
               <div className="contact-details">
                 <h5>Call Us</h5>
                 <p>
-                  Sales: <a href="tel:+18005551234">(800) 555-1234</a><br />
-                  Service: <a href="tel:+18005554321">(800) 555-4321</a>
+                  Sales: <a href="tel:+251912345678">+251 912 345 678</a><br />
+                  Service: <a href="tel:+18005554321">+251 912 345 678</a>
                 </p>
               </div>
             </div>
